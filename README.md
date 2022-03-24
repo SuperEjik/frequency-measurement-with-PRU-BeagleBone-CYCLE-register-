@@ -8,3 +8,6 @@ https://beagleboard.org/static/prucookbook/#_running_a_program_configuring_pins
 config-pin p8_15 pruin  
 make TARGET=cycle.pru0.c;  
 gcc out_test.c -o out_test
+
+## Data output
+./out_test
